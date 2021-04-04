@@ -9,6 +9,7 @@ public class HelloController {
 
   @RequestMapping("/hello")
   public String helloworld() {
+    System.out.println(System.currentTimeMillis() + " Hello from Duncan");
     return "Hello from Duncan.";
   }
 
